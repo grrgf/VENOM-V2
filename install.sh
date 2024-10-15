@@ -10,7 +10,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/VENOM-V2/hr.py bot_token -7393913417:AAG-OoAqtvbvOEAisFAFl1JoQ79P_Kl87vY",
+    "postStartCommand": "VENOM-V2=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/VENOM-V2/hr.py bot_token -7393913417:AAG-OoAqtvbvOEAisFAFl1JoQ79P_Kl87vY",
     "customizations": {
         "vscode": {
             "settings": {
